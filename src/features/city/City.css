@@ -1,0 +1,38 @@
+.City {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  min-height: 60px;
+}
+
+.City__container {
+  position: relative;
+}
+
+.City__info > .City__name {
+  margin-bottom: 0;
+}
+
+.City__delete-icon {
+  position: absolute;
+  background: var(--color-danger);
+  border-radius: 10px;
+  top: 50%;
+  left: 0;
+  transform: translate(5%, -50%);
+  height: 50px;
+  width: 60px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.City__delete-icon > img {
+  opacity: 30%;
+}

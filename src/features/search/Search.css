@@ -1,0 +1,46 @@
+.Search {
+  position: fixed;
+  top: 0;
+  left: 100vw;
+  padding: 30px;
+  padding-top: 36px;
+  width: calc(100vw - 60px);
+  height: calc(100vh - 66px);
+  background: #fff;
+  box-shadow: -5px 0px 10px var(--background-secondary);
+  transition: left .3s ease-out;
+  z-index: 9999999;
+}
+
+.Search.is-visible {
+  left: 0px;
+}
+
+.Search-Bar {
+  height: calc(40px - 20px);
+  background: var(--background-secondary);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px 15px;
+  margin-bottom: 20px;
+
+  transition: background .2s;
+}
+
+.Search-Input {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+::placeholder {
+  color: var(--color-secondary);
+}
