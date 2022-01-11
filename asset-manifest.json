@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/clocko/static/css/main.0807fc97.css",
-    "main.js": "/clocko/static/js/main.2d646ee5.js",
-    "static/js/787.3b378add.chunk.js": "/clocko/static/js/787.3b378add.chunk.js",
-    "service-worker.js": "/clocko/service-worker.js",
-    "index.html": "/clocko/index.html",
-    "static/media/search.svg": "/clocko/static/media/search.3bb70a7af70df116fb6362e814abdc9a.svg",
-    "static/media/delete.svg": "/clocko/static/media/delete.03205ec8f3490f2cfd3e3bcd69df1845.svg",
-    "main.0807fc97.css.map": "/clocko/static/css/main.0807fc97.css.map",
-    "main.2d646ee5.js.map": "/clocko/static/js/main.2d646ee5.js.map",
-    "787.3b378add.chunk.js.map": "/clocko/static/js/787.3b378add.chunk.js.map"
+    "main.css": "/static/css/main.0807fc97.css",
+    "main.js": "/static/js/main.7820e1f8.js",
+    "static/js/787.3b378add.chunk.js": "/static/js/787.3b378add.chunk.js",
+    "service-worker.js": "/service-worker.js",
+    "index.html": "/index.html",
+    "static/media/search.svg": "/static/media/search.3bb70a7af70df116fb6362e814abdc9a.svg",
+    "static/media/delete.svg": "/static/media/delete.03205ec8f3490f2cfd3e3bcd69df1845.svg",
+    "main.0807fc97.css.map": "/static/css/main.0807fc97.css.map",
+    "main.7820e1f8.js.map": "/static/js/main.7820e1f8.js.map",
+    "787.3b378add.chunk.js.map": "/static/js/787.3b378add.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0807fc97.css",
-    "static/js/main.2d646ee5.js"
+    "static/js/main.7820e1f8.js"
   ]
 }
